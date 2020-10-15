@@ -1,0 +1,202 @@
+\documentclass{report}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{t1enc}
+\usepackage[magyar]{babel}
+\usepackage{blindtext}
+\usepackage[margin=1in]{geometry}
+%\usepackage{showframe}
+\usepackage{comment}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\renewcommand{\thesection}{A\arabic{section}}
+
+\setlength\parindent{0pt}
+\setlist[enumerate]{leftmargin=*}
+
+\begin{document}
+\titleformat*{\section}{\Huge\bfseries}
+\titleformat*{\subsection}{\Large\bfseries}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+
+\begin{figure}[t]
+  \includegraphics[width = \textwidth]{Seventh_Framework_Programme_logo.png}
+  \centering
+\end{figure}
+
+\begin{center}
+  \Huge \textbf{PROJECTPLAN}
+\end{center}
+
+\vspace{2cm}
+
+Projekt acronym:  MAPF \bigskip
+
+Projekt címe: WSCaS algoritmus szűk átjárókat tartalmazó gráfokra, polcátadással  \bigskip
+  
+Finanszírozási szám:  \bigskip
+ 
+Verzió:   \bigskip
+
+\end{titlepage}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\section{Összefoglalás}
+\Large
+%\normalsize
+
+
+\vspace{0.5in}
+
+\begin{tabular}{|p{0.225\textwidth}|p{0.225\textwidth}|p{0.225\textwidth}|p{0.225\textwidth}|}
+
+\hline
+\textbf{Projekt szám:} & 123456.789 & \textbf{Projekt acronym:} & MAPF\\ [3ex]
+\hline
+\end{tabular}
+
+\vspace{1in}
+
+\begin{tabular}{|p{0.475\textwidth}|p{0.475\textwidth}|}
+\hline
+\textbf{Projekt címe:}  &  WSCaS algoritmus szűk átjárókat tartalmazó gráfokra, polcátadással \\[3ex]
+\hline
+\textbf{Kezdődátum:}  & 2020.09. \\[3ex]
+\hline
+\textbf{Időtartama hónpban:}  &  24 \\[3ex]
+\hline
+\textbf{Hívás azonosító??:}  &   \\[3ex]
+\hline
+\textbf{Aktivációs kód??:}  &   \\[3ex]
+\hline
+\textbf{Kulcsszavak:}  &  MAPF, WSCaS \\[3ex]
+\hline
+\textbf{Abszrakt:}  &   \\[3ex]
+\hline
+\end{tabular}
+
+\normalsize
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\subsection{Bevezetés}
+\blindtext
+\blindtext\blindtext\blindtext\blindtext\blindtext
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\section{Résztvevők}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\section{Pénzek}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\section*{WT1: Munkacsomagok}
+\Large
+\begin{tabular}{|p{0.1\textwidth}|p{0.2\textwidth}|p{0.1\textwidth}|p{0.1\textwidth}|p{0.1\textwidth}|p{0.1\textwidth}|p{0.12\textwidth}|}
+\hline
+\textbf{WP száma}  & \textbf{WP cím} & \textbf{Típusa} & \textbf{Vezető} & \textbf{Munka-hónap} & \textbf{Kezdő hónap} & \textbf{Befejező hónap} \\[3ex]
+\hline
+WP1 & Projekt menedzselés & MGT & Mindenki & 10 & 1 & 20 \\ [3ex]
+\hline
+WP2 & Irodalom-kutatás & RTD & Mindenki & 20 & 1 & 15 \\ [3ex]
+\hline
+WP3 & Ennek a megírása & & & $\infty$ & & \\ [3ex]
+\hline
+WP4 & WSCaS továbbfejlesztése & & & & & \\ [3ex]
+\hline
+WP5 & Cikk Írás & & & & & \\ [3ex]
+\hline
+WP6 & Végső report & & & & & \\ [3ex]
+\hline
+\multicolumn{3}{c|}{}& Total & xx & \multicolumn{2}{|c}{} \\ [3ex]
+\cline{4-5}
+\end{tabular}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\section*{WT2: Teljesítendő munkafolyamatok}
+
+\Large
+\begin{tabular}{|p{0.13\textwidth}|p{0.2\textwidth}|p{0.07\textwidth}|p{0.1\textwidth}|p{0.1\textwidth}|p{0.06\textwidth}|p{0.1\textwidth}|p{0.08\textwidth}|}
+\hline
+\textbf{Folyamat száma}  & \textbf{Folyamat cím} & \textbf{WP szám} & \textbf{Vezető} & \textbf{Becsült munka-hónap} & \textbf{Ter-mé-szet} & \textbf{Titkosí-tási szint} & \textbf{Szállí-tási hónap} \\[3ex]
+\hline
+D1.1 & Elsőéves report & 1 & M & 5 & R & CO & 12 \\ [3ex]
+\hline
+D1.2 & Végső riport & 1 & M & 5 & R & PU & 20 \\ [3ex]
+\hline
+D2.1 & Cikkek keresése & 2 & M & 8 & R & PU & 20 \\ [3ex]
+\hline
+D2.2 & Feldolgozás & 2 & M & 12 & R & PU & 20 \\ [3ex]
+\hline
+D3.1 & Latex alapok & 3 & MM & 5 & R & PU & 20 \\ [3ex]
+\hline
+D3.2 & Tartalom & 3 & MM & 25 & R & PU & 20 \\ [3ex]
+\hline
+Dn.m & - & - & - & - & - & - & - \\ [3ex]
+\hline
+Dn.m & - & - & - & - & - & - & - \\ [3ex]
+\hline
+Dn.m & - & - & - & - & - & - & - \\ [3ex]
+\hline
+Dn.m & - & - & - & - & - & - & - \\ [3ex]
+\hline
+\multicolumn{3}{c|}{}& Total & xx & \multicolumn{2}{|c}{} \\ [3ex]
+\cline{4-5}
+\end{tabular}
+\normalsize
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\section*{WT3: Munkacsomagok leírása}
+
+
+\Large{\textbf{Munkacsomag 1}}
+\bigskip\\
+\large{\textbf{Összes munkahónap: 10}}
+\bigskip 
+
+[2.5 hónap Hegyi Péter; 2.5 hónap Kiss Alex; 2.5 hónap Michelisz Máté; 2.5 hónap Miskolczi Miklós]
+%\bigskip
+%\bigskip
+%\bigskip
+\vspace{1cm}
+
+Munkacsomag száma: WP1 \\
+Munkacsomag címe: Projekt menedzselés \\
+Típusa: MGT \\
+Kezdő hónap: 1 \\
+Befejező hónap: 20 \\
+\medskip
+
+\textbf{Célkítűzések:}
+\medskip
+
+\begin{enumerate}
+    \item 1-2 sorban
+    \item 1-2 sorban
+    \item 1-2 sorban
+    \item 1-2 sorban
+\end{enumerate}
+
+
+\textbf{Munka leírása:}
+\medskip
+
+Itt jönnek a taskok. 
+A taskok egy sorban.
+
+\medskip
+Mérföldkövek.
+
+
+
+\end{document}
